@@ -1,0 +1,46 @@
+# Python byte code and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+venv/
+env/
+.env
+.venv/
+ENV/
+
+# Datasets and Large Files
+data/
+dataset/
+mvtec_anomaly_detection/
+*.tar.xz
+*.tar.gz
+*.zip
+
+# Trained Model checkpoints and large weights
+# (Keep placeholder / config, but ignore raw large weight files)
+models/*.h5
+models/*.keras
+!models/.gitkeep
+
+# Results and logs
+results/*.png
+results/*.json
+results/*.csv
+!results/.gitkeep
+
+# Streamlit local settings
+.streamlit/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp

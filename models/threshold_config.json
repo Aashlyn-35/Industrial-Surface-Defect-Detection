@@ -1,0 +1,9 @@
+{
+    "category": "bottle",
+    "mean_normal_score": 0.0052,
+    "std_normal_score": 0.0041,
+    "recommended_threshold": 0.035,
+    "pixel_threshold": 0.0245,
+    "validation_samples_count": 40,
+    "model_file": "autoencoder_bottle.keras"
+}
